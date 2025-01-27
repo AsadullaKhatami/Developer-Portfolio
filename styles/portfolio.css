@@ -2,6 +2,8 @@
 .primary-button{
     background-color: #FD6E0A;
     color: #fff;
+    border-radius: 5px;
+    border: 0;
 }
 
 .primary-color{
@@ -14,15 +16,17 @@ body {
   font-optical-sizing: auto;
   font-weight: 800;
   font-style: normal;
-  font-variation-settings: "wdth" 100;
+  font-variation-settings: 100;
 }
 
 /* navigation style */
 nav{
     display: flex;
+    justify-content: space-between;
 }
 nav > ul{
     display: flex;
+    align-items: center;
 }
 nav li{
     list-style: none;
@@ -33,4 +37,10 @@ nav li{
     color:black;
     font-size: 45px;
 
+}
+
+.hire-me{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 18px 35px;
 }
