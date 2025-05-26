@@ -1,46 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 /* common css */
-.primary-button{
+.primary-button {
     background-color: #FD6E0A;
     color: #fff;
     border-radius: 5px;
     border: 0;
 }
 
-.primary-color{
+.msr {
+    margin-right: 8px;
+}
+
+.primary-color {
     color: #FD6E0A;
 }
+
 /* font styles */
 
 body {
-  font-family: "Open Sans", serif;
-  font-optical-sizing: auto;
-  font-weight: 800;
-  font-style: normal;
-  font-variation-settings: 100;
+    font-family: "Open Sans", serif;
+}
+
+header {
+    background: rgb(255, 248, 243);
+    padding: 0px 0px 0px 200px;
+
 }
 
 /* navigation style */
-nav{
+nav {
+    height: 150px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding-right: 200px;
 }
-nav > ul{
+
+nav>ul {
     display: flex;
     align-items: center;
 }
-nav li{
+
+nav li {
     list-style: none;
     margin-left: 51px;
 }
 
-.nav-title{
-    color:black;
+.nav-title {
+    color: black;
     font-size: 45px;
 
 }
 
-.hire-me{
-    font-size: 20px;
+.hire-me {
+    font-size: 18px;
     font-weight: bold;
     padding: 18px 35px;
+}
+
+#hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url("../images/header_bg.png");
+    background-position: right bottom;
+    /* background-size: 500px; */
+    background-repeat: no-repeat;
+}
+
+#hero .hero-content img {
+    width: 500px;
+}
+
+.hero-content {
+    width: 585px;
+}
+
+.container h4 {
+    margin-bottom: 5px;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.container h1 {
+    margin-bottom: 20px;
+    font-size: 85px;
+    font-weight: 700;
+}
+
+.container p {
+    color: rgb(117, 117, 117);
+    margin-bottom: 30px;
+}
+
+.btn-container .contact-btn {
+    outline: none;
+    border: 1px solid rgb(253, 110, 10);
+    margin-left: 30px;
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+#developer {
+    position: absolute;
+    top: 38px;
+    left: 30px;
+    height: 100%;
+}
+
+main {
+    margin: 0 auto;
+    width: 1120px;
+}
+
+#about {
+    margin: 130px 0;
+    text-align: center;
+    background-color: rgb(255, 248, 243);
+    padding: 130px 150px;
+}
+
+.about-content {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #000;
+}
+
+.about-content h1 {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.about-content p {
+    color: rgb(117, 117, 117);
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.info-titel{
+    line-height: 0px;
+}
+
+.description{
+    font-weight: 700 !important;
 }
