@@ -40,12 +40,14 @@ nav {
     padding-right: 200px;
 }
 
-nav>ul {
+nav>ul,
+.media ul {
     display: flex;
     align-items: center;
 }
 
-nav li {
+nav li,
+.media li {
     list-style: none;
     margin-left: 51px;
 }
@@ -115,7 +117,8 @@ nav li {
 main {
     margin: 0 auto;
     width: 1120px;
-    background-color: rgb(255, 255, 255);;
+    background-color: rgb(255, 255, 255);
+    ;
 }
 
 #about {
@@ -133,13 +136,16 @@ main {
 }
 
 .about-content h1,
-#what-do h1 {
+#what-do h1,
+#resume h1,
+.Connect h2, .messages h2 {
     font-size: 35px;
     font-weight: 700;
 }
 
 .about-content p,
-#what-do p {
+#what-do p,
+.Connect p {
     color: rgb(117, 117, 117);
     font-size: 18px;
     font-weight: 400;
@@ -161,7 +167,8 @@ main {
     font-weight: 700 !important;
 }
 
-#what-do {
+#what-do,
+#resume h1 {
     text-align: center;
     margin-bottom: 130px;
 }
@@ -174,7 +181,7 @@ main {
     margin-top: 50px;
 }
 
-.item{
+.item {
     width: 260px;
     height: 350px;
     border-radius: 5px;
@@ -184,8 +191,83 @@ main {
     text-align: left;
 }
 
-.item h3{
+.item h3 {
     font-size: 20px;
     margin: 20px 0;
     font-weight: 700;
+}
+
+.resume-skill {
+    display: flex;
+    gap: 20px;
+}
+
+.education h2,
+.experience h2 {
+    margin-bottom: 25px;
+}
+
+.education-skill h3 {
+    color: rgb(71, 71, 71);
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.education-skill h5 {
+    color: rgb(117, 117, 117);
+    font-size: 18px;
+    font-weight: 550;
+    margin-bottom: 20px;
+}
+
+.education-skill p {
+    color: rgb(117, 117, 117);
+    margin-bottom: 30px;
+}
+
+.download-btn {
+    margin: 50px 0 113px 0;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    padding: 130px 200px;
+    background: rgb(255, 248, 243);
+}
+
+.Connect{
+    width: 50%;
+    margin-right: 100px;
+}
+
+.media li {
+    margin-top: 30px;
+}
+
+.media li a i {
+    color: rgb(253, 110, 10);
+    text-align: center;
+    font-size: 20px;
+}
+
+.messages{
+    width: 460px;
+}
+
+.messages h2{
+    margin-bottom: 24px;
+}
+
+.messages form input[type=text],.messages form input[type=email], textarea {
+    display: block;
+    margin-bottom: 24px;
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    width: 100%;
 }
